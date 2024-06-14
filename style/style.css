@@ -17,6 +17,15 @@ body {
   overflow: hidden;
 }
 
+.nine {
+  top: 10vh;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  position: absolute;
+  padding: 10px;
+}
+
 .container div.six {
   top: 10vh;
   z-index: 1;
@@ -127,6 +136,7 @@ body {
   width: 80px;
   top: -35px;
   left: 41.5%;
+  opacity: 0;
   /* transform: scale(0.1); */
 }
 
